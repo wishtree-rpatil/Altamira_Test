@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="Main">
+        <div class="Heading">
+            Calculator
+        </div>
+
+        <div class="Main_Calculator">
+            <div class="Values" id="Calculations_Values"></div>
+            <div class="Main_Numbers">
+                <div class="Sub_Numbers">
+                    <p class="Numbers_Button" onclick="incomingNumber(1)">1</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(2)">2</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(3)">3</p>
+                    <p class="Numbers_Button" onclick="incomingNumber('+')">+</p>
+                </div>
+                <div class="Sub_Numbers">
+                    <p class="Numbers_Button" onclick="incomingNumber(4)">4</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(5)">5</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(6)">6</p>
+                    <p class="Numbers_Button" onclick="incomingNumber('-')">-</p>
+                </div>
+
+                <div class="Sub_Numbers">
+                    <p class="Numbers_Button" onclick="incomingNumber(7)">7</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(8)">8</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(9)">9</p>
+                    <p class="Numbers_Button" onclick="incomingNumber('*')">*</p>
+                </div>
+
+                <div class="Sub_Numbers">
+                    <p class="Numbers_Button" onclick="incomingNumber('x')">Clear</p>
+                    <p class="Numbers_Button" onclick="incomingNumber(0)">0</p>
+                    <p class="Numbers_Button" onclick="incomingNumber('/')">/</p>
+                    <p class="Numbers_Button" onclick="calculate()">=</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
